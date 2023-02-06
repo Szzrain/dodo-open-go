@@ -152,18 +152,19 @@ func (c *client) Close() {
 		recover()
 	}()
 	c.isConnected = false
-	time.Sleep(time.Duration(1) * time.Second)
 	if err := c.conn.Close(); err != nil {
 		log.Errorf("close connection failed cause: %v", err)
 	}
 	c.heartbeatTicker.Stop()
-	time.Sleep(time.Duration(1) * time.Second)
 	close(c.messageChan)
 	close(c.closeChan)
 }
 
 // readMessage read message from connection
 func (c *client) readMessage() {
+	defer func() {
+		recover()
+	}()
 	for c.isConnected {
 		_, message, err := c.conn.ReadMessage()
 		if err != nil {
