@@ -2,7 +2,7 @@ module examples
 
 go 1.18
 
-require github.com/dodo-open/dodo-open-go v0.0.0-20220425084322-950f9ed7a225
+require github.com/Szzrain/dodo-open-go v0.0.0-20220425084322-950f9ed7a225
 
 require (
 	github.com/go-resty/resty/v2 v2.7.0 // indirect

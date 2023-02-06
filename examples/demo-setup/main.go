@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/dodo-open/dodo-open-go/client"
-	"github.com/dodo-open/dodo-open-go/tools"
+	"github.com/Szzrain/dodo-open-go/client"
+	"github.com/Szzrain/dodo-open-go/tools"
 	"time"
 )
 

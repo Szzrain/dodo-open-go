@@ -1,10 +1,10 @@
 package receive_message
 
 import (
-	"github.com/dodo-open/dodo-open-go/client"
-	"github.com/dodo-open/dodo-open-go/model"
-	"github.com/dodo-open/dodo-open-go/tools"
-	"github.com/dodo-open/dodo-open-go/websocket"
+	"github.com/Szzrain/dodo-open-go/client"
+	"github.com/Szzrain/dodo-open-go/model"
+	"github.com/Szzrain/dodo-open-go/tools"
+	"github.com/Szzrain/dodo-open-go/websocket"
 	"testing"
 	"time"
 )
