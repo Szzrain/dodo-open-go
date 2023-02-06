@@ -107,7 +107,7 @@ func (c *client) Listen() error {
 	// listen and handle message
 	go c.listenMessageAndHandle()
 
-	for {
+	for c.isConnected {
 		select {
 		case err := <-c.closeChan:
 			log.Errorf("[stop listening] %v", err)
@@ -124,6 +124,7 @@ func (c *client) Listen() error {
 			_ = c.Write(packet)
 		}
 	}
+	return nil
 }
 
 // Write message
