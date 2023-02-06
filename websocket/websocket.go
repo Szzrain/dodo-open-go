@@ -115,10 +115,10 @@ func (c *client) Listen() error {
 				DefaultHandlers.ErrorHandler(err)
 			}
 			// reconnect after 2 seconds
-			time.Sleep(time.Second * 2)
-			if err := c.Reconnect(); err != nil {
-				return err
-			}
+			//time.Sleep(time.Second * 2)
+			//if err := c.Reconnect(); err != nil {
+			//	return err
+			//}
 		case <-c.heartbeatTicker.C:
 			packet := &WSEventMessage{Type: HeartbeatType}
 			_ = c.Write(packet)
