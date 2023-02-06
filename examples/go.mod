@@ -13,4 +13,4 @@ require (
 	golang.org/x/net v0.0.0-20211029224645-99673261e6eb // indirect
 )
 
-replace github.com/dodo-open/dodo-open-go => ../
+replace github.com/Szzrain/dodo-open-go => ../
