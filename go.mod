@@ -1,4 +1,4 @@
-module github.com/dodo-open/dodo-open-go
+module github.com/Szzrain/dodo-open-go
 
 go 1.18
 

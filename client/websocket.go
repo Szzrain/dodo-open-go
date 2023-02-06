@@ -2,8 +2,8 @@ package client
 
 import (
 	"context"
-	"github.com/dodo-open/dodo-open-go/model"
-	"github.com/dodo-open/dodo-open-go/tools"
+	"github.com/Szzrain/dodo-open-go/model"
+	"github.com/Szzrain/dodo-open-go/tools"
 )
 
 // GetWebsocketConnection 获取 Websocket 连接

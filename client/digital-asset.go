@@ -2,8 +2,8 @@ package client
 
 import (
 	"context"
-	"github.com/dodo-open/dodo-open-go/model"
-	"github.com/dodo-open/dodo-open-go/tools"
+	"github.com/Szzrain/dodo-open-go/model"
+	"github.com/Szzrain/dodo-open-go/tools"
 )
 
 // GetMemberNFTStatus 获取成员数字藏品判断

@@ -1,6 +1,6 @@
 package websocket
 
-import "github.com/dodo-open/dodo-open-go/tools"
+import "github.com/Szzrain/dodo-open-go/tools"
 
 // EventType event type code
 type EventType string

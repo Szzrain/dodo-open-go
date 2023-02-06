@@ -2,9 +2,9 @@ package client
 
 import (
 	"context"
-	"github.com/dodo-open/dodo-open-go/errs"
-	"github.com/dodo-open/dodo-open-go/model"
-	"github.com/dodo-open/dodo-open-go/tools"
+	"github.com/Szzrain/dodo-open-go/errs"
+	"github.com/Szzrain/dodo-open-go/model"
+	"github.com/Szzrain/dodo-open-go/tools"
 )
 
 // GetChannelList 获取频道列表

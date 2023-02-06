@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 	"errors"
-	"github.com/dodo-open/dodo-open-go/model"
+	"github.com/Szzrain/dodo-open-go/model"
 	"github.com/go-resty/resty/v2"
 	"time"
 )

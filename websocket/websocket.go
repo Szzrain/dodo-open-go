@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	restClient "github.com/dodo-open/dodo-open-go/client"
-	"github.com/dodo-open/dodo-open-go/log"
-	"github.com/dodo-open/dodo-open-go/tools"
+	restClient "github.com/Szzrain/dodo-open-go/client"
+	"github.com/Szzrain/dodo-open-go/log"
+	"github.com/Szzrain/dodo-open-go/tools"
 	"github.com/gorilla/websocket"
 	"time"
 )

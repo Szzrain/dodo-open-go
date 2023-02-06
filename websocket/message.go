@@ -1,7 +1,7 @@
 package websocket
 
 import (
-	"github.com/dodo-open/dodo-open-go/model"
+	"github.com/Szzrain/dodo-open-go/model"
 	jsoniter "github.com/json-iterator/go"
 )
 
