@@ -148,6 +148,9 @@ func (c *client) Reconnect() error {
 
 // Close connection and stop heartbeat ticker
 func (c *client) Close() {
+	defer func() {
+		recover()
+	}()
 	c.isConnected = false
 	time.Sleep(time.Duration(1) * time.Second)
 	if err := c.conn.Close(); err != nil {
