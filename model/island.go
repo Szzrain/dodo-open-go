@@ -33,7 +33,8 @@ func (p *GetIslandInfoReq) ValidParams() error {
 type GetIslandInfoRsp struct {
 	IslandElement
 
-	Description string `json:"description"` // 群描述
+	Description       string `json:"description"`       // 群描述
+	OwnerDodoSourceId string `json:"ownerDodoSourceId"` // 群主 DoDoID
 }
 
 type (
